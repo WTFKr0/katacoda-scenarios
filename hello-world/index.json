@@ -10,7 +10,7 @@
     }],
     "intro": {
       "text": "intro.md",
-      "code": "env-init.sh",
+      "courseData": "env-init.sh",
       "credits": ""
     },
     "finish": {
@@ -19,7 +19,11 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n\u001b[m\r\n",
+    "hideintro": true,
+    "showdashboard": true,
+    "dashboards": [{"name": "Display 80", "port": 80}, {"name": "Display 8080", "port": 8080}]
+}
   },
   "backend": {
     "imageid": "docker"
