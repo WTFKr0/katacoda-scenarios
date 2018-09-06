@@ -1,6 +1,6 @@
 docker swarm init
 
-cat <<EOF | docker stack deploy -c - swarm-system
+cat <<EOF > swarm-system.yaml 
 version: "3.5"
 services:
   traefik:
@@ -9,3 +9,4 @@ services:
       - 80:80
       - 443:443
 EOF
+docker stack deploy -c swarm-system.yaml swarm-system
