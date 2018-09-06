@@ -1,5 +1,5 @@
 {
-  "title": "Hello World Scenario",
+  "title": "Hello World Scenario 2",
   "description": "Your First Scenario",
   "difficulty": "beginner",
   "time": "2 minutes",
@@ -17,7 +17,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "terminal-terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
