@@ -2,6 +2,7 @@ version: "3.5"
 services:
   traefik:
     image: traefik:tetedemoine
+    command: --docker --docker.swarmmode
     ports:
       - 80:80
       - 443:443
