@@ -1,5 +1,5 @@
 {
-  "title": "Hello World Scenario 2",
+  "title": "Hello World Scenario 3",
   "description": "Your First Scenario",
   "difficulty": "beginner",
   "time": "2 minutes",
@@ -10,6 +10,7 @@
     }],
     "intro": {
       "text": "intro.md",
+      "courseData": "env-init.sh",
       "credits": ""
     },
     "finish": {
