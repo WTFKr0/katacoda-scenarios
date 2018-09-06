@@ -15,14 +15,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "client": [
-        {
-          "file": "swarm-system.yaml",
-          "target": "~/"
-        }
-      ]
     }
   },
   "environment": {
